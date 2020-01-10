@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Italianno', cursive;
+    background: black;
+    font-size: 30px
+}
+
+header {
+    position: relative;
+    height: 100vh;
+    display: flex
+}
+
+.cover {
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    right: 0;
+}
+
+.cover-date {
+    position: absolute;
+    left: 10%;
+    bottom: 10%;
+    opacity: 0.7;
+    color: white;
+}
+
+nav {
+    background: #33336c;
+    z-index: 2;
+        width: 40%;
+    height: 15%;
+    color: white;
+}
+
+.nav-links li a {
+    color: white
+}
+
+.nav-closed {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 15%;
+    width: 40%;
+    position: absolute;
+    
+}
+
+.nav-closed ul {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    align-content: center;
+    list-style: none
+}
+
+
+.nav-closed h1 {
+    font-size: 280%;
+    text-shadow: 4px 4px 6px black
+}
+
+.nav-open {
+    position: absolute;
+    width: 40%;
+    height: 80%;
+    top: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.clothing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%
+}
+
+ h2 {
+    font-size: 50px;
+    word-spacing: 5px;
+     color: #f8e1e1;
+     text-shadow: 1px 1px 8px black
+}
+
+.clothing ul {
+    display: flex;
+    margin-top: -10px
+}
+
+.clothing ul li {
+    padding-bottom: 10px;
+    list-style: none;
+    margin: 25px;
+    font-size: 32px
+}
+
+.nav-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -27px
+}
+
+.clothing ul li a {
+    text-decoration: none;
+    color: #916356
+}
+
+.nav-images img {
+    height: 150px
+}
