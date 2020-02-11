@@ -124,3 +124,31 @@ nav {
 .nav-images img {
     height: 150px
 }
+
+@media (max-width: 768px) {
+    nav, .nav-open, .nav-images img {
+        width: 50%
+    }
+    .nav-links {
+        margin-right: -100px
+    }
+    .nav-links li {
+        font-size: .9rem
+    }
+    .clothing ul li {
+        font-size: 24px
+    }
+}
+
+@media (max-width: 425px) {
+    nav, .nav-open {
+        width: 100%
+    }
+    .nav-links {
+        margin-right: -250px
+    }
+    .nav-links li {
+        font-size: .8rem
+    }
+
+}
