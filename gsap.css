@@ -87,14 +87,16 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%
+    width: 100%;
+    margin-bottom: -2rem
 }
 
  h2 {
     font-size: 50px;
     word-spacing: 5px;
      color: #f8e1e1;
-     text-shadow: 1px 1px 8px black
+     text-shadow: 1px 1px 8px black;
+     margin: -3rem 0
 }
 
 .clothing ul {
@@ -109,20 +111,23 @@ nav {
     font-size: 32px
 }
 
-.nav-images {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: -27px
-}
-
 .clothing ul li a {
     text-decoration: none;
     color: #916356
 }
 
+.nav-images {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    margin-top: -27px;
+    grid-gap: .5rem
+}
+
 .nav-images img {
-    height: 150px
+    height: 150px;
+    width: 250px
 }
 
 @media (max-width: 768px) {
